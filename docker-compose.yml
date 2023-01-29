@@ -7,10 +7,6 @@ services:
     ports:
       - '5244:5244'
     environment:
-      - PUID=0
-      - PGID=0
-      - UMASK=022
-      - TZ=UTC
       DB_HOST: "ap-northeast.connect.psdb.cloud"
       DB_NAME: "aesir"
       DB_PASS: "pscale_pw_JJs88T8nx75U1JybCRbVCD89LLOjlywyiW9c38CRIS0"

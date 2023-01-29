@@ -1,9 +1,8 @@
 version: '3.3'
 services:
-  alist:
+  onlyoffice:
     restart: always
     volumes:
-      - '/etc/alist:/opt/alist/data'
     ports:
       - '80:80'
     environment:
